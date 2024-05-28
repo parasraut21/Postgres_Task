@@ -6,7 +6,7 @@
 - The base URL for accessing the API is /api.
 
 ## Endpoints
-- 1. Users
+### 1. Users
 
 - GET /api/users
 Description: Retrieve a list of all users.
@@ -33,7 +33,7 @@ Response: The updated user object.
 Description: Delete a user by ID.
 Response: Status code indicating success or failure.
 
-- 2. Wallet Addresses
+### 2. Wallet Addresses
 - GET /api/walletAddresses
 Description: Retrieve a list of all wallet addresses.
 Response: Array of wallet address objects.
