@@ -7,55 +7,54 @@
 
 ## Endpoints
 - 1. Users
-GET /api/users
 
+- GET /api/users
 Description: Retrieve a list of all users.
 Response: Array of user objects.
-POST /api/users
 
+- POST /api/users
 Description: Create a new user.
 Request Body:
 name (string): The name of the user.
 email (string): The email address of the user.
 password (string): The password of the user.
 Response: The created user object.
-GET /api/users/:id
 
+- GET /api/users/:id
 Description: Retrieve a specific user by ID.
 Response: The user object with the specified ID.
-PUT /api/users/:id
 
+- PUT /api/users/:id
 Description: Update an existing user.
 Request Body: Same as the POST request.
 Response: The updated user object.
-DELETE /api/users/:id
 
+- DELETE /api/users/:id
 Description: Delete a user by ID.
 Response: Status code indicating success or failure.
 
 - 2. Wallet Addresses
-GET /api/walletAddresses
-
+- GET /api/walletAddresses
 Description: Retrieve a list of all wallet addresses.
 Response: Array of wallet address objects.
-POST /api/walletAddresses
 
+- POST /api/walletAddresses
 Description: Create a new wallet address.
 Request Body:
 user_id (string): The ID of the user associated with the wallet address.
 address (string): The wallet address.
 Response: The created wallet address object.
-GET /api/walletAddresses/:id
 
+- GET /api/walletAddresses/:id
 Description: Retrieve a specific wallet address by ID.
 Response: The wallet address object with the specified ID.
-PUT /api/walletAddresses/:id
 
+- PUT /api/walletAddresses/:id
 Description: Update an existing wallet address.
 Request Body: Same as the POST request.
 Response: The updated wallet address object.
-DELETE /api/walletAddresses/:id
 
+- DELETE /api/walletAddresses/:id
 Description: Delete a wallet address by ID.
 Response: Status code indicating success or failure.
 
